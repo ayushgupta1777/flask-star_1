@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Star Pattern</title>
+    <style>
+        /* Add your CSS styles for the star pattern here */
+        .star-pattern {
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Star Pattern</h1>
+    
+    <!-- Display the star pattern here -->
+    <pre class="star-pattern">
+    {% for row in star_pattern %}
+        {{ row }}
+    {% endfor %}
+    </pre>
+</body>
+</html>
